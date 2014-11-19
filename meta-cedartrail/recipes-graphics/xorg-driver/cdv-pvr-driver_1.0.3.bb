@@ -29,8 +29,8 @@ LIBWSBM = "libwsbm-cdv-1.1.0-3.1.i586.rpm"
 LIBWSBM-DEV = "libwsbm-cdv-devel-1.1.0-3.1.i586.rpm"
 
 
-NON-OSS-PATH = "http://repo.meego.com/MeeGo/updates/1.2.0/repos/non-oss/ia32/packages/"
-OSS-PATH =     "http://repo.meego.com/MeeGo/updates/1.2.0/repos/oss/ia32/packages/"
+NON-OSS-PATH = "http://repository.timesys.com/buildsources/fedora/14-CT/i386/os/Packages/"
+OSS-PATH =     "http://repository.timesys.com/buildsources/fedora/14-CT/i386/os/Packages/"
 
 
 SRC_URI = "${NON-OSS-PATH}${PSB-VIDEO};name=psbrpm;unpack=0 \
@@ -48,8 +48,8 @@ SRC_URI[pvrrpmdev.sha256sum] = "facb67f6b8413504e7ba570a4e3e3ee20cb90d7bd02b3036
 SRC_URI[psbrpm.md5sum] =  "ec486193dc4b3f91bc7c5e18d9ca9d8a"
 SRC_URI[psbrpm.sha256sum] = "0861d69b44d5ce29a3f778ac82976a22f7726af84d9b2e5438c18da5263ffdac"
 
-SRC_URI[wsbmrpm.md5sum] = "b8b21ca8325abd7850d197f9bf3071c7"
-SRC_URI[wsbmrpm.sha256sum] = "f436386967c1adec5211e662251bd542bbe0b8cd55e1d9f9c203da5ee934d4f0"
+SRC_URI[wsbmrpm.md5sum] = "8d90436b151ddf72f620771f2552b597"
+SRC_URI[wsbmrpm.sha256sum] = "82f78f47c151f0e7d567574ee372504e5b395fb13796caa765f9c30754b5bf63"
 
 SRC_URI[wsbmrpmdev.md5sum] = "895d0cafd878fcbe4e2f845b8e09eea3"
 SRC_URI[wsbmrpmdev.sha256sum] = "605ba605a2617ee67863d5becac114ce7f4ea440854543f75465e16f463bad70"
